@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "SegoeUIB";
+	src: url(../fonts/segoeuib.ttf);
+}
+
+@font-face {
+	font-family: "Myfont";
+	src: url(../fonts/myfont.ttf);
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url(../fonts/Ubuntu-M.ttf);
+}
+@font-face {
+	font-family: "DockerOne";
+	src: url(../fonts/Docker_One.ttf);
+}
+@font-face {
+	font-family: "Awesome";
+	src: url(../fonts/font-awesome.ttf);
+}
+@font-face {
+	font-family: "Houschka";
+	src: url(../fonts/Houschka.ttf);
+}
+@font-face {
+	font-family: "Intro";
+	src: url(../fonts/Intro.ttf);
+}
+@font-face {
+	font-family: "Intro-Inline";
+	src: url(../fonts/Intro-Inline.ttf);
+}
+@font-face {
+	font-family: "Lobster";
+	src: url(../fonts/Lobster.ttf);
+}
+@font-face {
+	font-family: "MuseoSans";
+	src: url(../fonts/MuseoSans.ttf);
+}
+@font-face {
+	font-family: "Open-Sans";
+	src: url(../fonts/Open-Sans.ttf);
+}
+@font-face {
+	font-family: "Open-Sans-Light";
+	src: url(../fonts/Open-Sans-Light.ttf);
+}
+@font-face {
+	font-family: "ROSKA";
+	src: url(../fonts/ROSKA.ttf)
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(../fonts/Raleway.ttf);
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url(../fonts/Gotham/GothamProLight.ttf);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url(../fonts/Gotham/GothamProRegular.ttf);
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url(../fonts/Gotham/GothamProMedium.ttf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url(../fonts/Gotham/GothamProBold.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url(../fonts/Gotham/GothamPrBlack.ttf);
+	font-weight: 500;
+}
