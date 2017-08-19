@@ -16,3 +16,11 @@ $('.tribe-events-has-events').click( () => {
             }
 	        return false; // выключаем стандартное действие
     });
+
+
+    $(document).ready(function() {
+    $('.spoiler-body').hide()
+    $('.spoiler-head').click(function(){
+    $(this).toggleClass("folded").toggleClass("unfolded").next().toggle()
+    })
+    })

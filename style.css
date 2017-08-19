@@ -190,6 +190,8 @@ nav ul li a:hover {
 hr {
     background: rgba(74, 132, 196, .3);
     margin-bottom: 0;
+    margin-left: -3%;
+    width: 106%;
 }
 .date {
     background: transparent;
@@ -532,7 +534,7 @@ table {
     margin-top: 3px;
 }
 .line {
-    transition: width .3s, .5s;
+    transition: width .1s, .5s;
     width: 20px;
     background: #fff;
     height: 2px;
@@ -540,20 +542,25 @@ table {
 }
 .line:nth-child(1) {
     margin-top: 0;
-    transition-delay: .5s;
 }
 .line:nth-child(3) {
-    transition-delay: .5s;
+}
+
+.mobile-menu-click .line {
+    animation: ;
+}
+@keyframes menu-box {
+    0% {
+
+    }
 }
 
 .mobile-menu-click .line:nth-child(1) {
     transform: rotate(-45deg);
     margin-top: 5px;
-    transition-delay: 0s;
 }
 .mobile-menu-click .line:nth-child(2) {
     width: 0px;
-    transition-delay: 0;
     transition: width 1s;
     
 }
@@ -607,3 +614,4 @@ table {
     border: 1px solid #4f84c4;
     border-radius: 10px;
 }
+

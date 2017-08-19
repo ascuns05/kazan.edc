@@ -139,3 +139,16 @@ function true_load_posts(){
 add_action('wp_ajax_loadmore', 'true_load_posts');
 add_action('wp_ajax_nopriv_loadmore', 'true_load_posts');
 ?>
+
+<!-- CUSTOM SCRIPTS -->
+<?php
+function hyper_spoiler($atts, $content) {
+	if (!isset($atts[name])) {$sp_name = 'Спойлер';}
+	else {$sp_name = $atts[name];}
+	return '<div class="spoiler-wrap">
+		<div class="spoiler-head folded">'.$sp_name.'</div>
+		<div class="spoiler-body">'.$content.'</div>
+	</div>';
+}
+add_shortcode('spoiler', 'hyper_spoiler');
+?>
