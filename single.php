@@ -5,5 +5,11 @@
     <br>
     <p><?php the_content(); ?></p>
 <?php endwhile; endif; ?>
-</section>
+
+
+<div class="heart"></div>
+
+
+
+
 <?php get_footer(); ?>

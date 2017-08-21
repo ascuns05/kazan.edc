@@ -13,7 +13,6 @@ Kazan-EDC WordPress Theme © 2017-2017 TidyThemes
 Kazan-EDC is distributed under the terms of the GNU GPL
 */
 
-
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 /* .home header {
     height: 100vh;
@@ -156,7 +155,7 @@ nav ul li a:hover {
 }
 @media (max-width: 500px) {
     .content {
-        padding: 9px!important;
+        padding: 9px 9px!important;
     }
 }
 
@@ -439,6 +438,7 @@ h2.tribe-events-page-title {
         background-color: transparent!important;
     }
 }
+
 #tribe-events-footer~a.tribe-events-ical.tribe-events-button {
     display: none!important;
 }
@@ -546,14 +546,7 @@ table {
 .line:nth-child(3) {
 }
 
-.mobile-menu-click .line {
-    animation: ;
-}
-@keyframes menu-box {
-    0% {
 
-    }
-}
 
 .mobile-menu-click .line:nth-child(1) {
     transform: rotate(-45deg);
@@ -576,13 +569,11 @@ table {
     z-index: 90;
     width: 260px;
     transition: .5s;
-    right: -300px; 
+    left: -260px; 
 }
-.margin {
-    right: 260px;
-}
+
 .margin-menu {
-    right: 0px;
+    left: 0px;
 }
 
 .mobile-main-menu li{
@@ -610,8 +601,49 @@ table {
     margin-top: 35vh;
 }
 .content {
-    padding: 30px 40px;
+    padding: 30px 40px 30px;
     border: 1px solid #4f84c4;
     border-radius: 10px;
 }
+/* #vk_like {
+    float: right;
+    width: 98px!important;
+} */
+.like_left {
+    display: none;
+}
 
+.visible {
+    display: block;
+}
+
+
+
+
+/* LIKE */
+
+.heart {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-image:url( 'js/res/like.png');
+    background-position: left;
+    background-repeat:no-repeat;
+    background-size:2900%;
+  }
+  
+  .heart:hover {
+    background-position:right;
+  }
+  
+  .is_animating {
+    animation: heart-burst .8s steps(28) 1;
+    background-position: right;
+  }
+  
+  @keyframes heart-burst {
+    from {background-position:left;}
+    to { background-position:right;}
+  }
+
+/*  */
