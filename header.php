@@ -3,9 +3,9 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="<? bloginfo('template_directory') ?>/libs/bootstrap.css">
-        <link rel="stylesheet" href="<? bloginfo('template_directory') ?>/libs/fonts.css">
-        <link rel="stylesheet" href="<? bloginfo('template_directory') ?>/libs/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/bootstrap.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/fonts.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <?php wp_head(); ?>
